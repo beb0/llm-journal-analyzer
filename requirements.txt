@@ -1,0 +1,13 @@
+fastapi 
+uvicorn 
+torch 
+transformers 
+llama-cpp-python 
+langchain 
+pydantic 
+nltk 
+rake-nltk 
+gdown 
+nest_asyncio 
+langchain-community 
+langchain-core
