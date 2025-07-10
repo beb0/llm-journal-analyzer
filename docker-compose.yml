@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  journal-analyzer:
+    build: .
+    container_name: journal-analyzer
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./MODEL:/app/MODEL
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
